@@ -103,11 +103,11 @@ client.on('message', message => {
     message.guild.leave();        
   } else  
   if (message.content.startsWith(adminprefix + 'setw')) {
-  client.user.setActivity(argresult, {type:'WATCHING'});
+  client.user.setActivity(argresult, {type:'MARCELO'});
       message.channel.send(`**✅   ${argresult}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'setl')) {
-  client.user.setActivity(argresult , {type:'LISTENING'});
+  client.user.setActivity(argresult , {type:'CHAMPioNS'});
       message.channel.send(`**✅   ${argresult}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'sets')) {
